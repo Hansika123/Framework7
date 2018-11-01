@@ -1,0 +1,554 @@
+﻿
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>MyJobs</title>
+    <link rel="stylesheet" href="../../../../dist/css/framework7.min.css">
+    <link rel="stylesheet" href="../../../../dist/css/">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/f7-icon.png">
+    <link rel="stylesheet" href="../../../../dist/css/framework7-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+
+ </head>
+ <body>
+ 
+     <div class="page">
+	 
+
+         <!---- page content start---------->
+         <div class="navbar">
+             <div class="navbar-inner sliding">
+                 <div class="left">
+                     <a href="#" class="link back">
+                         <i class="icon icon-back"></i>
+                         <span class="ios-only">Back</span>
+                     </a>
+                 </div>
+                 <div class="title">Quote</div>
+				 
+				 
+				 
+				 
+				 
+                 <div class="right">
+                     <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
+                         <i class="icon f7-icons ios-only">search_strong</i>
+                         <i class="icon material-icons md-only">search</i>
+                     </a>
+                 </div>
+             </div>
+         </div>
+
+
+         <!-------tabbar-->
+         <div class="toolbar tabbar">
+             <div class="toolbar-inner">
+                 <a href="#tab-1" class="tab-link tab-link-active">Quotation request</a>
+                 <a href="#tab-2" class="tab-link">status</a>
+				  <a href="#tab-3" class="tab-link">Work Oder</a>
+             </div>
+         </div>
+         <div class="tabs-swipeable-wrap">
+             <div class="tabs">
+                 <div id="tab-1" class="page-content tab tab-active">
+                     <div class="block">
+                         <!-------tab1 content-->
+
+					 <br/>
+						<a class="button color-green" href="/Quote.AddNewQuote/">
+                             <button class="col button button-fill color-green">Add Quote</button>
+               
+						</a>
+				     <br/>
+
+                         <div class="card-footer color-green item-content item-link">
+                             <a href="/Quote.view/" class="link">Quote 1</a>
+                         </div>
+
+                         <div class="card-footer color-green item-content item-link">
+                             <a href="/Quote.view/" class="link">Quote 2</a>
+                         </div>
+                         <div class="card-footer color-green item-content item-link">
+                             <a href="/Quote.view/" class="link">Quote 3</a>
+                         </div>
+
+
+                <!-------when no quote
+				
+                         <div class="block">
+                             <center> <i class="material-icons  size-100">create</i></center>
+                             <center><h1><p>Nothing here yet.</p></h1></center>
+                             <center>You don't have any unpaid invoices</center>
+                         </div>
+						 
+				-->  
+						 
+						 
+                     </div>
+                 </div>
+
+
+                 <div id="tab-2" class="page-content tab">
+                     <div class="block">
+                         <!-------tab2 content-->
+						 
+					 <br/>
+						<a class="button color-green" href="/Quote.AddNewQuote/">
+                             <button class="col button button-fill color-green">Add Quote</button>
+               
+						</a>
+				     <br/>
+                        
+						
+						 <div class="card bg-color-white">
+                             <div class="list">
+                                 <ul>
+                
+                                        <li>
+                                             <div class="card">
+											 
+											 
+                                                 <div class="card-header">
+                                                     <div class="item-inner">
+                                                         <div class="item-title">Arpico Super Center</div>
+                                                 <div class="right">
+												
+												 
+
+                                                   <div class="badge color-green">
+												   <i class="material-icons">done</i>
+												   <i>Accepted</i>
+												   
+													</div>
+                                                  </div>
+                                                 </div>
+                                                </div>
+												
+                                                
+												
+                                             </div>
+
+									</li>
+									
+									
+									 <li>
+                                             <div class="card">
+											 
+											 
+                                                 <div class="card-header">
+                                                     <div class="item-inner">
+                                                         <div class="item-title">Arpico Super Center</div>
+                                                 <div class="right">
+
+                                                   <div class="badge color-red">
+												   <i class="icon material-icons md-only">report</i>
+												   <i>Rejected</i>
+												   
+													</div>
+                                                  </div>
+                                                 </div>
+                                                </div>
+												
+                                                
+												
+                                             </div>
+
+									</li>
+									
+									
+									
+									
+									
+
+                                     <li>
+
+
+                                         <div class="card">
+                                             <div class="card-header">
+                                                 <div class="item-inner">
+                                                     <div class="item-title">Omega Entry</div>
+                                                     <div class="right">
+
+													  <div class="badge color-yellow">
+												   <i class="icon material-icons md-only">query_builder</i>
+												   <i>Pending</i>
+												   
+													</div>
+													 
+
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                            
+                                             </div>	
+										</li>
+										
+										
+										
+                                     <li>
+
+
+                                         <div class="card">
+                                             <div class="card-header">
+                                                 <div class="item-inner">
+                                                     <div class="item-title">Omega Entry</div>
+                                                     <div class="right">
+
+													  <div class="badge color-yellow">
+												   <i class="icon material-icons md-only">query_builder</i>
+												   <i>Pending</i>
+												   
+													</div>
+													 
+
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                            
+                                             </div>	
+										</li>
+										
+										
+										
+										   <li>
+										  
+                                             <div class="card">
+											 
+											 
+                                                 <div class="card-header">
+                                                     <div class="item-inner">
+                                                         <div class="item-title">Water supply</div>
+                                                 <div class="right">
+
+                                                   <div class="badge color-green">
+												   <i class="material-icons">done</i>
+												   <i>Accepted</i>
+												   
+													</div>
+                                                  </div>
+                                                 </div>
+                                                </div>
+												
+                                                
+												
+                                             </div>
+									
+
+									</li>
+										
+										
+										
+								 </ul>
+										
+                                      </div>
+									
+
+									 
+									 
+									 
+									 
+                                    
+									 
+									 
+									 
+									 
+								
+                                 </div>
+                             
+							 </div>
+                         
+						 </div>
+                     
+					
+
+            <div id="tab-3" class="page-content tab tab-active">
+                     <div class="block">
+                         <!-------tab3 content-->
+
+						<div class="block" >
+					<center><h3><i>	Works oders of Accepted quotes </i></h3><center>
+						</div>
+			
+
+                        
+						
+						
+							
+                             <div class="list">
+                                 <ul>
+                
+                                        <li>
+                                             <div class="card">
+											 
+											 
+                                                 <div class="card-header">
+                                                     <div class="item-inner">
+													 
+													  <a data-popup=".itemview" class="popup-open link">
+                                                         <div class="item-title">Arpico Super Center</div>
+														 
+													</a>	 
+                                                 <div class="right">
+												
+												 
+
+                                                   <div class="badge color-green">
+												  
+												   <i>due date 12/12/2018</i>
+												   
+													
+                                                  </div>
+												  
+												  
+                                                 </div>
+												 
+												 
+                                                </div>
+												
+                                                
+												
+                                             </div>
+
+									</li>
+									
+									
+								
+									
+									
+							
+                                   
+										
+										
+										
+										   <li>
+                                             <div class="card">
+											 
+											 
+                                                 <div class="card-header">
+                                                     <div class="item-inner">
+													 
+										  <a data-popup=".itemview" class="popup-open link">
+                                           <div class="item-title">Water supply</div>
+											</a>				 
+                                                 <div class="right">
+
+                                                   
+												   <div class="badge color-green">
+												  
+												   <i>due date 12/12/2018</i>
+												   
+													
+                                                  </div>
+												  
+												   
+                                                  </div>
+                                                 </div>
+                                                </div>
+												
+                                                
+												
+                                             </div>
+
+									</li>
+									
+									
+									
+									
+									
+									
+								
+									
+										
+										
+										
+										
+										
+    	
+	
+
+		</div>
+        </div>
+         
+      
+										
+										
+										
+										
+										
+										
+										
+								 </ul>
+										
+                                      </div>
+									
+
+									 
+									 
+									 
+									 
+                                    
+									 
+									 
+									 
+									 
+								
+                                 </div>
+						
+						
+						
+						
+						
+
+                <!-------when no quote
+				
+                         <div class="block">
+                             <center> <i class="material-icons  size-100">create</i></center>
+                             <center><h1><p>Nothing here yet.</p></h1></center>
+                             <center>You don't have any unpaid invoices</center>
+                         </div>
+						 
+				-->  
+						 
+						 
+                     </div>
+					 
+				
+					 
+					 <div class="popup itemview">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Work oder(No)</div>
+                            <div class="right">
+                                <!-- Link to close popup -->
+                                <a class="link popup-close">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                       
+						
+						
+						
+  <!---- itemview content start---------->
+ 
+ 
+     <div class="list inline-labels no-hairlines-md">
+	
+	
+	 <center>
+	 <div class="card">
+      <div class="card-content card-content-padding">
+	 <h3> work oder discription</h3>
+	  
+	  </div>
+	 
+    </div>
+	 </center>
+	
+	
+	
+	
+	
+	
+	
+	
+ </div>
+  
+ 
+ <br/> <br/> <br/>
+				
+				  <p class="row">
+				<button href="#" class="link popup-close col button button-fill color-red">Cancel</button>
+					<button href="/invoice.AddNewInvoice/" class="col popup-close button button-fill color-green">Done & Send Invoice</button>
+					
+					
+					
+				</p>
+ 
+ 
+  <!---- page content end---------->
+  <!---- item  content end---------->
+						
+						
+						
+						
+						
+                    </div>
+                </div>
+            </div>
+
+        </div>
+		
+		
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+                 </div>
+
+
+					
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 </div>
+                 </div>
+
+						
+						<!-- list end -->
+						
+						
+						
+						
+
+				<!-- when no quote
+
+                         <center> <i class="material-icons  size-100">create</i></center>
+                         <center><h1><p>Nothing here yet.</p></h1></center>
+                         <center>You don't have any unpaid invoices</center>
+				-->				 
+						 
+                     </div>
+					 
+                 </div>
+				 
+             </div>
+         </div>
+
+
+
+         <!---- page content end---------->
+     </div>
+            <script src="../../js/app.js"></script>
+            <script src="../../js/routes.js"></script>
+            <script src="../../../dist/js/framework7.min.js"></script>
+
+</body>
